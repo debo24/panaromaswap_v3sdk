@@ -1,11 +1,11 @@
 // rollup.config.js
-import replace from 'rollup-plugin-replace';
+import replace from 'rollup-plugin-replace'
 
 export default {
-	// ...
-	plugins: [
-		replace({
-			ENVIRONMENT: JSON.stringify('production')
-		})
-	]
-};
+  // ...
+  plugins: [
+    replace({
+      ENVIRONMENT: JSON.stringify('production')
+    })
+  ]
+}
