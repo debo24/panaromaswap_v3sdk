@@ -1,0 +1,48 @@
+{
+  "name": "panaromaswap_v3sdk",
+  "publishConfig": {
+    "@debo24": "https://npm.pkg.github.com"
+  },
+  "version": "1.0.0",
+  "description": "SDK for building applications on Panaromaswap V3",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/debo24/panaromaswap_v3sdk.git",
+  "keywords": [
+    "panaromaswap",
+    "ethereum"
+  ],
+  "module": "dist/panaromaswap_v3sdk.esm.js",
+  "scripts": {
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "test": "tsdx test",
+    "prepublishOnly": "tsdx build"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.0.12",
+    "@ethersproject/solidity": "^5.0.9",
+    "panaromaswap_sdkcore": "^1.0.0",
+    "panaromaswap_swaproutercontracts": "^1.0.0",
+    "panaromaswap_v3periphery": "^1.0.0",
+    "panaromaswap_v3staker": "1.0.0",
+    "tiny-invariant": "^1.1.0",
+    "tiny-warning": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "panaromaswap_v3core": "1.0.0",
+    "tsdx": "^0.14.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  }
+}
