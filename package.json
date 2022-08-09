@@ -25,7 +25,7 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "panaromaswap_sdkcore": "^1.0.0",
+    "panaromaswap_sdkcore": "^1.0.1",
     "panaromaswap_swaproutercontracts": "^1.0.0",
     "panaromaswap_v3periphery": "^1.0.0",
     "panaromaswap_v3staker": "1.0.0",
