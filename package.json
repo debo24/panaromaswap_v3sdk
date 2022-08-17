@@ -3,7 +3,7 @@
   "publishConfig": {
     "@debo24": "https://npm.pkg.github.com"
   },
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "SDK for building applications on Panaromaswap V3",
   "main": "dist/index",
   "typings": "dist/index",
