@@ -3,7 +3,7 @@
   "publishConfig": {
     "@debo24": "https://npm.pkg.github.com"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SDK for building applications on Panaromaswap V3",
   "main": "dist/index",
   "typings": "dist/index",
@@ -26,9 +26,9 @@
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
     "panaromaswap_sdkcore": "^1.0.1",
-    "panaromaswap_swaproutercontracts": "^1.0.0",
-    "panaromaswap_v3periphery": "^1.0.0",
-    "panaromaswap_v3staker": "1.0.0",
+    "panaromaswap_swaproutercontracts": "^1.0.1",
+    "panaromaswap_v3periphery": "^1.0.1",
+    "panaromaswap_v3staker": "1.0.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
